@@ -1,3 +1,4 @@
+import React from 'react'
 import "./SidebarLink.css";
 
 function SidebarLink({ link, text, Icon }) {

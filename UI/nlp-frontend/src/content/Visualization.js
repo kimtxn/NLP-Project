@@ -1,3 +1,4 @@
+import React from 'react'
 import "./Content.css";
 import WordCloud from "./elements/WordCloud";
 

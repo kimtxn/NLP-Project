@@ -1,3 +1,4 @@
+import React from 'react'
 import "./Sidebar.css";
 import SidebarLink from "./SidebarLink";
 import HomeIcon from '@mui/icons-material/Home';

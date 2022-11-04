@@ -11,7 +11,11 @@ h2,h3,h4{
 }
 
 .inputs{
-    width: 500px;
+    width: auto;
+}
+
+.outputs{
+    width: auto;
 }
 
 #model{

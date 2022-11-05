@@ -21,8 +21,8 @@ export default function ModelTabs() {
 
   const [output, setOutput] = React.useState();
 
-  async function query() {
-    const data = document.getElementById("input_text").value;
+  async function query(text_field) {
+    const data = document.getElementById(text_field).value;
     console.log(data);
     const response = await fetch(
       "https://api-inference.huggingface.co/models/LYTinn/finetuning-sentiment-model-tweet-bert",
@@ -37,7 +37,7 @@ export default function ModelTabs() {
   }
   
   function getSentiment(e) {
-    query({"inputs": "input_text"}).then((response) => {
+    query("input_text").then((response) => {
       console.log(JSON.stringify(response));
     });
   }
@@ -63,7 +63,7 @@ export default function ModelTabs() {
           </div>
           <br></br>
 
-          <button id="model" onClick={getSentiment("input_text")}>
+          <button id="model" onClick={() => getSentiment("input_text")}>
               Get Sentiment
           </button>
           <br></br>

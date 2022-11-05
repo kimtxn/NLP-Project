@@ -21,7 +21,9 @@ export default function ModelTabs() {
 
   const [output, setOutput] = React.useState();
 
-  async function query(data) {
+  async function query() {
+    const data = document.getElementById("input_text").value;
+    console.log(data);
     const response = await fetch(
       "https://api-inference.huggingface.co/models/LYTinn/finetuning-sentiment-model-tweet-bert",
       {
@@ -31,10 +33,14 @@ export default function ModelTabs() {
       }
     );
     const result = await response.json();
-    setOutput(result);
     return result;
   }
-  console.log();
+  
+  function getSentiment(e) {
+    query({"inputs": "input_text"}).then((response) => {
+      console.log(JSON.stringify(response));
+    });
+  }
  
   return (
     <Box sx={{ width: '100%', typography: 'body1' }}>
@@ -50,23 +56,26 @@ export default function ModelTabs() {
         <TabPanel value="1">
           <h4>Sample Inputs</h4>
           <Example/>
+
           <h4>Enter your own input</h4>
           <div className="inputs">
-            <TextField id="input_text" variant="outlined" 
-            value={input} onChange={(e) => setInput(e.target.value)}/>
+            <TextField id="input_text" variant="outlined"/>
           </div>
           <br></br>
-          <button id="model" onClick={query}>
+
+          <button id="model" onClick={getSentiment("input_text")}>
               Get Sentiment
           </button>
           <br></br>
+
           <h4>Result</h4>
           <div className="outputs">
-            <TextField id="outlined-read-only-input" variant="outlined" value={output} InputProps={{
-            readOnly: true,
-          }}/>
+            <TextField id="outlined-read-only-input" variant="outlined" value={output} 
+            InputProps={{readOnly: true}}
+            />
           </div>
           <br></br>
+
           <h4>Model Card</h4>
           Further info of model
           <br></br><br></br>

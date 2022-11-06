@@ -54,8 +54,9 @@ p {
   width: auto;
   height: 50px;
   background-color: hsl(203, 89%, 64%);
-  border-radius: 20px;
+  border-radius: 25px;
   color: white;
   font-weight: 700;
   text-transform: inherit;
+  padding: 20px;
 }

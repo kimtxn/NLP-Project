@@ -8,6 +8,19 @@
   border-right: 1px solid rgba(226, 230, 233, 0.881);
 }
 
+.code-block {
+  background-color: rgba(226, 230, 233, 0.881);
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  font-family: "DM Mono", monospace;
+}
+
+.section {
+  width: 100%;
+  padding-top: 20px;
+  border-top: 1px solid rgba(226, 230, 233, 0.881);
+}
+
 .image {
   width: auto;
   text-align: center;

@@ -21,18 +21,38 @@ function Project() {
       <br />
       <br />
       Also, there is a lot of activity and opinions on technology stocks and
-      meme stocks in recent months. It would be interesting to be able to
-      automatically classify the sentiments of social media data and find out
-      how the market feels about certain companies.
+      meme stocks in recent months, which has sometimes been a precursor of
+      drastic changes in the stock's price (see stocks like Gamestop and Bed
+      Bath and Beyond). It would be interesting to be able to automatically
+      classify the sentiments of social media data and find out how the market
+      feels about certain companies. <br />
+      <br />
+      In particular, this kind of data could be used to spot trends in stocks
+      and possibly even inform trading strategies, so there is a lot of
+      possibility for further research questions (please see Other
+      Visualizations for an example).
+      <br />
+      <br />
+      Hence, we have chosen to train sentiment analysis models of stock market
+      Tweets for our project.
       <br />
       <br />
       <h2>About the Project</h2>
       As humans, we have an intuitive grasp of "positive" and "negative"
-      sentiments. However, machines don't have the same advantage of decades of
-      being immersed in real-world data as we do.
+      sentiments. We would like to train a model to be able to perform the same
+      task. However, machines don't have the same advantage of decades of being
+      immersed in real-world data as we do. Hence, relevant and useful training
+      data is vital in training our models.
       <br />
       <br />
-      We collected stock tweets related to technology stocks on Twitter
+      We collected stock tweets related to technology stocks on Twitter to
+      fine-tune existing sentiment analysis models. Below are some examples of
+      real "positive", "neutral", and "negative" Tweets.
+      <br />
+      <br />
+      You can find out more about the models we trained as well as test out the
+      models on these real inputs in the "Models Demo" tab. Besides these,
+      further information can be found on our report.
       <br />
       <br />
       <h2>Real-Life Examples</h2>
@@ -117,6 +137,8 @@ function Project() {
           charset="utf-8"
         ></script>
       </center>
+      <br />
+      <br />
     </div>
   );
 }

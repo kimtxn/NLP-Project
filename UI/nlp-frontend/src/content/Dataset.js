@@ -9,7 +9,7 @@ function Dataset() {
     {
       type: "treemap",
       labels: ["Positive", "Negative", "Neutral"],
-      values: [324, 280, 700],
+      values: [348, 330, 663],
       parents: ["Dataset", "Dataset", "Dataset"],
       marker: { colors: ["YellowGreen", "Tomato", "#1D9BF0"] },
     },
@@ -29,12 +29,15 @@ function Dataset() {
   return (
     <div className="content">
       <h1>About the Dataset</h1>
-      Here is some info about our dataset.
-      <br />
       <br />
       <h2>TreeMap</h2>
       The following treemap shows the distribution of positive, negative, and
-      neutral samples within our dataset.
+      neutral samples within the manually-labeled test data of our dataset.
+      <br />
+      <br />
+      Preprocessing to remove extra samples has been performed in order to get
+      close to the ideal ratio of 2:1:1 for neutral, positive, and negative
+      records.
       <div className="image">{plot}</div>
       <br />
       <h2>WordCloud</h2>

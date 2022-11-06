@@ -7,9 +7,8 @@ function Content(){
     <div className="content">
         <h1>Sentiment Analysis on Twitter Data</h1>
         Sentiment Analysis is the task of interpreting and classifying emotions (positive or negative) in the input text.
+        <br/><br/><br/>
         <h2>Select Model</h2>
-        <Model/>
-        <h2>About Model</h2>
         <ModelTabs/>
     </div>
   );

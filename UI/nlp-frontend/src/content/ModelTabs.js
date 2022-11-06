@@ -185,6 +185,10 @@ export default function ModelTabs() {
 
   const bertCard = (
     <p>
+      <div className="code-block">
+        After fine-tuning, the F1-score achieved is <b>0.87</b> 🥳 This is our
+        best model!
+      </div>
       Bidirectional Encoder Representations from Transformers (BERT) is an
       opensource machine learning framework that can be used in Huggingface for
       natural language processing. It is designed to enable understanding of
@@ -200,6 +204,9 @@ export default function ModelTabs() {
 
   const gpt2Card = (
     <p>
+      <div className="code-block">
+        After fine-tuning, the F1-score achieved is <b>0.69</b> 📈
+      </div>
       Generative Pre-trained Transformer 2 (GPT2) is a pre-trained model which
       scrapes away the need of training a model from scratch and hence
       eliminates the humongous amount of time and effort to build a new model.
@@ -216,6 +223,9 @@ export default function ModelTabs() {
 
   const bloomCard = (
     <p>
+      <div className="code-block">
+        After fine-tuning, the F1-score achieved is <b>0.71</b> 🔮
+      </div>
       BLOOM is a multilingual large language model that is capable of learning
       from large groups of texts. It can generate texts in a multitude of
       natural languages and programming languages. <br />
@@ -316,7 +326,12 @@ export default function ModelTabs() {
         <Example />
         <h4>Enter your own input</h4>
         <div className="inputs">
-          <TextField fullWidth id="input_text" variant="outlined" />
+          <TextField
+            fullWidth
+            refs="input"
+            id="input_text"
+            variant="outlined"
+          />
         </div>
         <br></br>
         <Button id="model" onClick={() => getSentiment(content[i]["model"])}>
@@ -327,7 +342,7 @@ export default function ModelTabs() {
         <div className="outputs">
           <TextField
             fullWidth
-            min-height="150px"
+            min-height="400px"
             id="outlined-read-only-input"
             variant="outlined"
             value={output}

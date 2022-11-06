@@ -14,6 +14,9 @@ function Info() {
           <li>Trung</li>
           <li>Shun Bin</li>
         </ul>
+        This website is inspired by the Twitter 🐦 feed!
+        <br />
+        <br />
       </div>
       <br />
       <div className="infoBox">

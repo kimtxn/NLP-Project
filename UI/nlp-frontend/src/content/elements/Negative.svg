@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600">
+<style>@font-face{font-family:'Droid Sans Mono';font-weight:normal;font-style:normal;src:url("data:application/font-woff;charset=utf-8;base64,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")format("woff");}</style>
+<style>text{font-family:'Droid Sans Mono';font-weight:normal;font-style:normal;}</style>
+<rect width="100%" height="100%" style="fill:Tomato"></rect>
+<text transform="translate(39,133)" font-size="120" style="fill:rgb(252, 185, 159)">bankruptcy</text>
+<text transform="translate(57,421)" font-size="120" style="fill:rgb(251, 115, 83)">likely</text>
+<text transform="translate(660,257)" font-size="90" style="fill:rgb(254, 229, 217)">yield</text>
+<text transform="translate(540,438)" font-size="90" style="fill:rgb(252, 128, 96)">briefly</text>
+<text transform="translate(855,71)" font-size="90" style="fill:rgb(218, 39, 35)">quick</text>
+<text transform="translate(6,532)" font-size="75" style="fill:rgb(242, 71, 52)">rollingonthefloorlaughing</text>
+<text transform="translate(276,259)" font-size="75" style="fill:rgb(255, 240, 233)">dropof</text>
+<text transform="translate(693,330)" font-size="75" style="fill:rgb(255, 244, 238)">alphabet</text>
+<text transform="translate(759,165)" font-size="75" style="fill:rgb(253, 197, 174)">maintains</text>
+<text transform="translate(1111,480) rotate(-90)" font-size="75" style="fill:rgb(248, 95, 67)">buffett</text>
+<text transform="translate(384,581)" font-size="66" style="fill:rgb(246, 86, 61)">interested</text>
+<text transform="translate(48,308)" font-size="66" style="fill:rgb(252, 196, 173)">little</text>
+<text transform="translate(4,183)" font-size="66" style="fill:rgb(138, 8, 18)">weary</text>
+<text transform="translate(417,326)" font-size="66" style="fill:rgb(253, 206, 187)">market</text>
+<text transform="translate(1178,503) rotate(-90)" font-size="66" style="fill:rgb(254, 225, 212)">fairness</text>
+<text transform="translate(57,561)" font-size="54" style="fill:rgb(115, 3, 15)">gener</text>
+<text transform="translate(238,173)" font-size="54" style="fill:rgb(250, 104, 73)">waddya</text>
+<text transform="translate(36,452)" font-size="42" style="fill:rgb(252, 170, 141)">manshrugging</text>
+<text transform="translate(861,576)" font-size="36" style="fill:rgb(173, 17, 23)">manfacepalming</text>
+<text transform="translate(42,234)" font-size="36" style="fill:rgb(171, 16, 22)">share</text>
+<text transform="translate(528,162)" font-size="36" style="fill:rgb(252, 133, 101)">beyond</text>
+<text transform="translate(876,360)" font-size="36" style="fill:rgb(254, 231, 219)">volume</text>
+<text transform="translate(330,33)" font-size="36" style="fill:rgb(194, 22, 27)">normal</text>
+<text transform="translate(225,338)" font-size="36" style="fill:rgb(252, 148, 116)">Tweet</text>
+<text transform="translate(927,201)" font-size="36" style="fill:rgb(255, 238, 230)">Length</text>
+<text transform="translate(249,576)" font-size="36" style="fill:rgb(252, 141, 109)">dtype</text>
+<text transform="translate(930,399)" font-size="36" style="fill:rgb(252, 194, 170)">object</text>
+</svg>

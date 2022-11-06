@@ -1,16 +1,20 @@
-.sidebar{
-    width: auto;
-    min-width: 250px;
-    padding: 20px 20px;
-    margin: 0 0 0 20px;
-    box-shadow: 0 0 6px hsl(210 14% 90%);
-  }
-#tweet{
-    width: 100%;
-    height: 50px;
-    background-color: hsl(203, 89%, 64%);
-    border-radius: 20px;
-    color: white;
-    font-weight: 700;
-    text-transform: inherit;
+.sidebar {
+  width: auto;
+  padding: 20px 20px;
+  padding-top: 10px;
+  margin: 0;
+  position: sticky;
+  top: 0;
+  /* box-shadow: 0 0 6px hsl(210 14% 90%); */
+}
+#tweet {
+  width: 100%;
+  height: 50px;
+  background-color: hsl(203, 89%, 64%);
+  border-radius: 20px;
+  color: white;
+  font-weight: 700;
+  text-transform: inherit;
+  font-weight: 600;
+  font-size: 20px;
 }

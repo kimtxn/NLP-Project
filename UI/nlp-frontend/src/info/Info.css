@@ -1,13 +1,32 @@
-.info{
-    width: auto;
-    min-width: 250px;
-    padding: 20px 20px;
-    margin: 0 20px 0 0;
-    box-shadow: 0 0 6px hsl(210 14% 90%);
-  }
-h3{
-    /* background-color: hsl(203, 89%, 64%); */
-    color: black;
-    font-weight: 700;
-    text-transform: inherit;
+.info {
+  width: auto;
+  padding: 20px 20px;
+  margin: 0;
+  /* box-shadow: 0 0 6px hsl(210 14% 90%); */
+}
+
+.infoBox {
+  width: auto;
+  background-color: rgba(226, 230, 233, 0.5);
+  padding: 20px 20px 5px 20px;
+  border-radius: 25px;
+}
+
+h3 {
+  /* background-color: hsl(203, 89%, 64%); */
+  color: black;
+  font-weight: 700;
+  text-transform: inherit;
+}
+
+@counter-style repeating-emoji {
+  system: cyclic;
+  symbols: "💸" "🤗" "🚀" "🤩" "💰" "📈";
+  suffix: " ";
+}
+
+.repeating-counter-rule {
+  margin-top: 0px;
+  list-style-type: repeating-emoji;
+  margin-left: -15px;
 }
